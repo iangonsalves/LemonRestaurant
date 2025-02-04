@@ -130,9 +130,12 @@ USE_TZ = True
 STATIC_URL = 'restaurant/static/'
 
 STATICFILES_DIRS = [
-    "restaurant/static",
+    "restaurant/static/",
 ]
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATIC_ROOT = '/home/IanGonsalves/LemonRestaurant/littlelemon/staticfiles'
+
 
 
 # Default primary key field type
